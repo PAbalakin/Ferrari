@@ -18,11 +18,55 @@
 .hero h1 {
   /* Text styles */
   font-size: 5em;
-  
+  background-color:#DC143C;
   /* Margins */
-  margin-top: 0;
-  margin-bottom: 0.5em;
-  
+  font-family: 'Sonsie One', cursive;
+
+  margin:0 auto 0.5em auto;
+}
+.hero h2 {
+  /* Text styles */
+  font-size: 2em;
+  background-color:#880808;
+  /* Margins */
+  font-family: 'Carter One', cursive;
+  margin:0 auto 0.5em auto;
+}
+body{
+  margin:0;
+  padding:0;
+  height:1000px;
 }
 
-.highlightme { background-color:#FFFF00; }
+.black{
+  position:fixed;
+  top:0;
+background-image: linear-gradient(#DC143C, black);
+  width:100%;
+  height:50px;
+
+}
+.black ul{
+  list-style-type:none;
+  padding:0;
+}
+
+.black ul li{
+  display:inline-block;
+  width:100px;
+ background-image: linear-gradient(	#7B1818, 	black);
+}
+
+.blue{
+  position:fixed;
+  top:0;
+ background-image: linear-gradient(	#D22B2B, 	#343434);
+  width:100%;
+  height:50px;
+}
+
+p {
+  color:whitesmoke;
+  font-family: 'Carter One', cursive;
+}
+
