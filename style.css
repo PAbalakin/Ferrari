@@ -38,32 +38,6 @@ body{
   height:1000px;
 }
 
-.black{
-  position:fixed;
-  top:0;
-background-image: linear-gradient(#DC143C, black);
-  width:100%;
-  height:50px;
-
-}
-.black ul{
-  list-style-type:none;
-  padding:0;
-}
-
-.black ul li{
-  display:inline-block;
-  width:100px;
- background-image: linear-gradient(	#7B1818, 	black);
-}
-
-.blue{
-  position:fixed;
-  top:0;
- background-image: linear-gradient(	#D22B2B, 	#343434);
-  width:100%;
-  height:50px;
-}
 
 p {
   color:whitesmoke;
